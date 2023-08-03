@@ -1,0 +1,33 @@
+.loading {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: #e1e1e1;
+  }
+  100% {
+    background-color: #cacaca;
+  }
+}
+
+.skeleton-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+}
+
+.skeleton-name {
+  justify-self: flex-start;
+  width: 248px;
+  height: 32px;
+  border-radius: 8px;
+}
+
+.skeleton-img {
+  width: 248px;
+  height: 248px;
+  border-radius: 8px;
+}
